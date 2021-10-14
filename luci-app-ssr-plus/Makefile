@@ -30,8 +30,8 @@ LUCI_DEPENDS:=+coreutils +coreutils-base64 +dns2socks +dnsmasq-full +ipset \
 	+tcping +resolveip  +uclient-fetch \
 	+ipt2socks \
 	+PACKAGE_$(PKG_NAME)_INCLUDE_Trojan:trojan \
-	+PACKAGE_$(PKG_NAME)_INCLUDE_Shadowsocks_Libev_Client:shadowsocks-libev-ss-redir \
 	+PACKAGE_$(PKG_NAME)_INCLUDE_Simple_Obfs:simple-obfs \
+	#+PACKAGE_$(PKG_NAME)_INCLUDE_Shadowsocks_Libev_Client:shadowsocks-libev-ss-redir \
 	
 	#+PACKAGE_$(PKG_NAME)_INCLUDE_Trojan:ipt2socks \
 	# +shadowsocksr-libev-ssr-check \
