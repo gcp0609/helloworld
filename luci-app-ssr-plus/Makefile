@@ -25,7 +25,6 @@ PKG_CONFIG_DEPENDS:= \
 LUCI_TITLE:=SS/Trojan interface
 LUCI_PKGARCH:=all
 LUCI_DEPENDS:=+coreutils +coreutils-base64 +dns2socks +dnsmasq-full +ipset \
-	+luci +luci-base +luci-compat \
 	+ip-full +iptables-mod-tproxy +lua +libuci-lua +microsocks +pdnsd-alt \
 	+tcping +resolveip  +uclient-fetch \
 	+ipt2socks \
